@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> implements interfaceClass {
   double _result=0;
   @override
   Widget build(BuildContext context) {
-    SamplePresentor _presentor=SamplePresentor(this);
+    SamplePresenter _presentor=SamplePresenter(this);
     // this return to interfaceClass
 
     return Scaffold(

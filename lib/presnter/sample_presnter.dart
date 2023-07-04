@@ -1,10 +1,10 @@
 import 'package:mvp_pattern_calculator/model/model_sample.dart';
 import 'package:mvp_pattern_calculator/view/interface_class.dart';
 
-class SamplePresentor{
+class SamplePresenter{
   late SampleModel _sampleModel;
   late interfaceClass _interfaceClass;
-  SamplePresentor(interfaceClass sampleView){
+  SamplePresenter(interfaceClass sampleView){
     _sampleModel=SampleModel();
     _interfaceClass =sampleView;
   }
